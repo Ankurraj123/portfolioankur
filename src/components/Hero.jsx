@@ -66,11 +66,11 @@ const Hero = () => {
         >
           <div className="photo-frame">
             <div className="photo-inner glass">
-              {/* Replace with actual image src="your-photo.jpg" */}
-              <div className="photo-placeholder">
-                <User size={80} color="#333" />
-                <span>YOUR PHOTO HERE</span>
-              </div>
+              <img 
+                src="/profile.png" 
+                alt="Ankur Raj" 
+                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+              />
               <div className="frame-glow" />
             </div>
             <motion.div 
