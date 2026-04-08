@@ -11,7 +11,7 @@ const AboutTerminal = () => {
     "> fetching_bio...",
     "Done.",
     "> whoami",
-    "Ankur Raj - Software Engineer & Creative Developer.",
+    "Ankur Raj - Fullstack Developer.",
     "> current_location",
     "Punjab, India / Buxar, Bihar.",
     "> mission",
@@ -42,7 +42,7 @@ const AboutTerminal = () => {
   }, [lineIndex, charIndex, lines]);
 
   return (
-    <section className="container terminal-section">
+    <section id="about" className="container terminal-section">
       <h2 style={{ fontSize: '3rem', marginBottom: '3rem', textAlign: 'center' }}>System <span className="gradient-text">Core</span></h2>
       <motion.div 
         className="glass terminal-window"
